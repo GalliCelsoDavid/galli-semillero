@@ -1,0 +1,184 @@
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Source+Serif+4&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Serif 4', serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* ENCABEZADO */
+header {
+  background-color: #706f5d;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+header .logo h1 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #000000; /* negro */
+}
+
+/* MENÚ DE NAVEGACIÓN */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover,
+nav a.activo {
+  background-color: #00a96a;
+  border-radius: 6px;
+  color: white;
+}
+
+/* SECCIONES */
+main, section {
+  padding: 30px;
+}
+
+section h2, main h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #00a96a;
+  margin-bottom: 10px;
+}
+
+/* BOTÓN PRINCIPAL */
+.btn {
+  background-color: #00a96a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* FORMULARIOS */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: 'Source Serif 4', serif;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #00a96a;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.carrito {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .total {
+    text-align: right;
+    font-size: 18px;
+  }
+  
+  .total button {
+    background-color: #00a96a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+  
+
+
+/* PIE DE PÁGINA */
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.redes-sociales {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .redes-sociales h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    color: #706f5d;
+  }
+  
+  .iconos-redes a img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .iconos-redes a img:hover {
+    transform: scale(1.2);
+  }
+  
